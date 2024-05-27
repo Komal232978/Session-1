@@ -34,4 +34,15 @@ display maxis
 
 minis = 5000
 maxis = 2.5*minis
-print("the value for maxis is:", 4.5*maxis)
+print("the value for maxis is:", 4.5*maxis) 
+
+bits = 1
+by_tes = 1*8
+kilo_bytes = 1024*by_tes
+mega_bytes = 1024*kilo_bytes
+giga_bytes = 1024*mega_bytes
+terra_bytes = 1024*giga_bytes
+
+print("The memory allocation units are as follows:")
+print("the combination of all bits and bytes are as follows")
+print("the sum of all is:",bits+by_tes+kilo_bytes+kilo_bytes+mega_bytes+giga_bytes+terra_bytes)
